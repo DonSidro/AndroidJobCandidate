@@ -15,4 +15,22 @@ This means that we expect that the app is stable and performs well in all possib
 
 *At the interview we expect you to walk us through the code and explain what you have done.*
 
+# Solution
 
+### Main Components
+
+The following components has been used:
+
+[Navigation Component](https://developer.android.com/guide/navigation): For navigation between fragments
+
+[Databinding](https://developer.android.com/topic/libraries/data-binding): For binding UI components in layout to data sources
+
+[LiveData](https://developer.android.com/topic/libraries/architecture/livedata): For displaying live observable data in recyclerview 
+
+[ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel): For storing and managing UI-related data
+
+[Hilt](https://developer.android.com/training/dependency-injection/hilt-android): For dependency injection
+
+[Picasso](https://square.github.io/picasso/): For image loading
+
+[Room](https://developer.android.com/jetpack/androidx/releases/room): For local storing of data

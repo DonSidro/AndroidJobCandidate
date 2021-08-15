@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postsFragment">
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="app.storytel.candidate.com.ui.post.PostsFragment"
+        android:label="Posts"
+        tools:layout="@layout/posts_fragment">
+        <action
+            android:id="@+id/listToPost"
+            app:destination="@id/detailFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="app.storytel.candidate.com.ui.details.DetailsFragment"
+        android:label="Post Details"
+        tools:layout="@layout/details_fragment" />
+</navigation>
